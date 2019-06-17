@@ -39,7 +39,7 @@ if(!empty($ime) || !empty($prezime) || !emtpy($pol) || !empty($email) || !empty(
 }
 else
 {
-    echo "Potrebno je popuniti sva polja! Ponovite unos!";
+    echo "Potrebno je popuniti sva polja!";
     die();
 }
 
