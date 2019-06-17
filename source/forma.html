@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Forma za registraciju</title>
+        <meta charset="UTF-8">
+    </head>
+    <body style="background-color:powderblue;">
+        <form action="insert.php" method="POST">
+            <table>
+                <tr>
+                    <td>Ime: </td>
+                    <td><input type="text" name="ime" size=34 required></td>
+                </tr>
+                <tr>
+                    <td>Prezime: </td>
+                    <td><input type="text" name="prezime" size=34 required></td>
+                </tr>
+                <tr>
+                    <td>Pol: </td>
+                    <td>
+                        <input type="radio" name="pol" value="m" required>Muški
+                        <input type="radio" name="pol" value="ž" required>Ženski
+                    </td>
+                <tr>
+                    <td>e-mail: </td>
+                    <td><input type="email" name="email" size=34 required></td>
+                </tr>
+                <tr>
+                    <td>Broj telefona: </td>
+                    <td>
+                        <select name="pozivniBroj">
+                            <option selected hidden value="">Pozivni broj</option>
+                            <option value="387">+387</option>
+                        </select>
+                        <input type="phone" name="brojTelefona" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="buttonPotvrdi" value="Potvrditi">
+                    </td>
+                </tr>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
