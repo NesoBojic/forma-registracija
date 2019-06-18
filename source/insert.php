@@ -7,7 +7,7 @@ $email = $_POST['email'];
 $pozivniBroj = $_POST['pozivniBroj'];
 $brojTelefona = $_POST['brojTelefona'];
 
-if(!empty($ime) || !empty($prezime) || !emtpy($pol) || !empty($email) || !empty($pozivniBroj) || !empty($brojTelefona))
+if(!empty($ime) || !empty($prezime) || !empty($pol) || !empty($email) || !empty($pozivniBroj) || !empty($brojTelefona))
 {
     $host = "localhost";
     $dbUsername = "root";
